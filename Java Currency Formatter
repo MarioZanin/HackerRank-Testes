@@ -8,8 +8,7 @@ public class Solution {
         double payment = scanner.nextDouble();
         scanner.close();
         
-        // Solução Proposta
-         // Formatar o pagamento em diferentes moedas
+        /* Formatar o pagamento em diferentes moedas */
         NumberFormat usFormat = NumberFormat.getCurrencyInstance(Locale.US);
         String us = usFormat.format(payment);
         
