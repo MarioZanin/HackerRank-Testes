@@ -13,15 +13,15 @@ public class Solution {
         int n = scanner.nextInt();
         scanner.close();
         
-        // Criar uma lista para armazenar os valores
+        /* Criar uma lista para armazenar os valores */
         List<Integer> list = new ArrayList<>();
         
-        // Preencher a lista com os valores de 0 a n-1
+        /* Preencher a lista com os valores de 0 a n-1 */
         for (int i = 0; i < n; i++) {
             list.add(i);
         }
         
-        // Imprimir a lista formatada
+        /* Imprimir a lista formatada */
         System.out.print("[");
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i));
