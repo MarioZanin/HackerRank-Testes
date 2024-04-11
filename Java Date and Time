@@ -25,5 +25,3 @@ class Result {
     return daysOfWeek[dayOfWeek - 1];
     }
 }
-
-public class Solution {
