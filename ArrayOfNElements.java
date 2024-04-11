@@ -1,0 +1,34 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+
+    Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.close();
+        
+        /* Criar uma lista para armazenar os valores */
+        List<Integer> list = new ArrayList<>();
+        
+        /* Preencher a lista com os valores de 0 a n-1 */
+        for (int i = 0; i < n; i++) {
+            list.add(i);
+        }
+        
+        /* Imprimir a lista formatada */
+        System.out.print("[");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i));
+            if (i < list.size() - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println("]");
+    }
+}
