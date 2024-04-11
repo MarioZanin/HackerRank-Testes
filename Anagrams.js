@@ -34,9 +34,9 @@ rl.question('Digite a primeira string: ', (a) => {
   rl.question('Digite a segunda string: ', (b) => {
     const result = isAnagram(a, b);
     if (result) {
-      console.log("Anagrams");
+      console.log("São Anagrams");
     } else {
-      console.log("Not Anagrams");
+      console.log("Não são Anagrams");
     }
     rl.close();
   });
